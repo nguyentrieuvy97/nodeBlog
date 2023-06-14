@@ -4,7 +4,7 @@ class SiteController {
     }
     show(req, res) {
         res.send('Contact');
-    }
+}
 }
 
                     module.exports = new SiteController();
